@@ -1,0 +1,184 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+}
+   
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul ol {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:var(--font-family) ;
+}
+#Custommenu li a{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 15px;
+line-height: 200%;
+color: #353535;
+padding: 18px 22px 5px;
+position: relative;
+}
+#Custommenu li a::before{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: aqua;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+#Custommenu li:hover a::before{
+    width: 100%;
+}
+footer{
+    background-image: url(../img/Group\ 215.png);
+}
+.middle-content{
+    color: #FFFFFF;
+   }
+footer .end-content a{
+    background-color: #FFCC00;
+    padding: 16px 0px 15px 32px;
+    border-radius: 16px;
+    color: #FFFFFF ;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #fff;
+display: inline-block;
+}
+footer .end-content a i{
+    padding: 5px 33px 5px 11px;
+    
+}
+footer .first-row{
+    padding-top: 71px;
+}
+footer .container .row .Font h4{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+line-height: 200%;
+color: #fff;
+
+}
+footer .container .row .Font p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: justify;
+color: #bbb9b9;
+}
+footer .icon a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color:#484848 ;
+    text-align: center;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+span{
+color:#BBB9B9 ;
+}
+.first-row .row a{
+    color: #FFFFFF;
+}
+footer .second-row{
+    padding: 94px 0px 84px 0px;
+}
+#banner .contact a{
+    background-color: #FFCC00;
+    padding: 16px 0px 15px 32px;
+    border-radius: 16px;
+    color: #FFFFFF ;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #fff;
+display: inline-block;
+margin: 0 20px;
+}
+#banner .contact a i{
+    padding: 6px 45px 6px 11px;
+}
+#banner .contact{
+    padding: 77px 0px 66px 0px;
+}
+#banner .contact .download{
+  
+    padding: 16px 0px 15px 32px;
+    border: 1px solid #353535;
+    color: #000 ;
+    border-radius: 16px;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+display: inline-block;
+background-color: transparent;
+}
+#banner .footer a{
+    color: #000;
+    margin: 0 13px;
+}
+#middle .container{
+    background-image: url(../img/Rectangle\ 16.png);
+    background-repeat: no-repeat;
+    background-size: 1441px 556px;
+}
+#middle{
+    position: relative;
+}
+#middle .container .text img {
+    position: absolute;
+    bottom: 0;
+    right: 80px;
+    
+  }
+  #middle .container .text a{
+    padding: 16px 0px 15px 32px;
+    border: 1px solid;
+    background-color: transparent;
+    display: block;
+    width: 170px;
+    height: 66px;
+   border-radius: 16px;
+   color: #000;
+margin-top: 52px;
+
+  }
+  #middle .container .text h4{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 50px;
+color: #353535;
+
+  }
+  #middle .container .text p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 190%;
+color: #353535;
+  }
